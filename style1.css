@@ -1,0 +1,44 @@
+@media (max-width: 590px) {
+  /* Adjust layout for small devices */
+  body {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 10px; /* Add some padding for a better mobile experience */
+  }
+
+  main {
+    width: 100%; /* Make the main content take full width */
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column; /* Stack nav items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  nav ul {
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+  }
+
+  nav ul li {
+    display: block; /* Stack menu items vertically */
+    margin: 10px 0; /* Add some space between menu items */
+    text-align: left; /* Align text to the left */
+  }
+
+  .logo {
+    height: 40px; /* Reduce the height for smaller screens */
+    margin-bottom: 10px; /* Add space below the logo */
+  }
+
+  header, footer {
+    text-align: center; /* Keep the header and footer text centered */
+    padding: 10px; /* Reduce padding for a more compact layout */
+  }
+
+  article {
+    width: 100%; /* Make articles take full width */
+    text-align: left; /* Align text to the left for readability */
+  }
+}
