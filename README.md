@@ -133,3 +133,23 @@ setting up a java file in eclipse quick steps
 - https://blog.hubspot.com/website/how-to-bold-in-html#:~:text=To%20bold%20the%20text%20in,b%3E%20(bold)%20tag.
 - https://www.w3schools.com/css/tryit.asp?filename=trycss_table_striped 
 
+
+### Assignment 2
+## During the development of the ProgNotes website, I performed both manual and automated accessibility checks to ensure that it is accessible to as many users as possible. This process revealed areas that required attention to improve the accessibility of my website.
+
+- The text contrast was one thing I noticed because this is important to ensure that the text color contrasts well with the background to support users with visual impairments.
+
+- I used alt text for Images to ensure that all images, especially the logo and other essential images, had descriptive alt attributes to help screen reader users.
+
+- Also using headings and structure to help verify the proper document structure and readability for website users.
+
+## What kinds of changes did you have to make (I do not want a list here). Generalize the types of issues that you created when building your website, and then the general type of changes that you made to resolve those issues.
+
+ I was missing alt text in some images, including the logo lacking descriptive alt text. This is important for users who rely on screen readers for closed captions. There were some color contrast Issues as some text did not have high contrast against its background, making it difficult to read for people with visual impairments. There were missing form labels as well as they lacked appropriate label tags, making it challenging for users to understand the purpose of the form fields.
+
+## How do these accessibility changes connect with the Gestalt principles we discussed earlier this semester?
+
+Proximity: I implemented proper spacing between elements, such as text, images, and buttons, so the website was easier to navigate. 
+Similarity: I used consistent colors, fonts, and design elements to create a cohesive visual language throughout the site. This enhances the usability for all users, including those with cognitive disabilities.
+Continuity: I ensured that the layout flows smoothly across pages with consistent navigation and structure, making it easier to follow and navigate.
+Closure: Providing clear and meaningful labels for all forms and buttons, also making all links descriptive to help the  users complete tasks even if part of the content is hidden or unclear. 
