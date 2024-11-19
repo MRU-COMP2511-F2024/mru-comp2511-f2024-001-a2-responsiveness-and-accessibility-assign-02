@@ -1,0 +1,70 @@
+
+body {
+   margin: 0; /* Remove default body margin */
+   padding: 0; /* Remove default body padding */
+   display: flex; /* Enable Flexbox layout */
+   flex-direction: column; /* Stack the elements vertically (header, nav, main, footer) */
+   justify-content: center; /* Horizontally center the content */
+   align-items: center; /* Vertically center the content */
+   background-color: #f0f8ff; /* Light background for side spaces */
+}
+
+main {
+   flex: 1; /* Allow the main content to grow and fill available space */
+   width: 790px; /* Fixed coxntent width */
+   background-color: #ffffff; /* White background for content area */
+   padding: 20px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+   border-radius: 10px; /* Optional: Rounded corners */
+}
+
+header{
+   text-align: center;
+   width: 100%; /* Ensure header takes full width */
+   background-color: blanchedalmond;
+   padding: 0.5em;
+}
+nav,footer{
+   background-color: blanchedalmond;
+   padding: 0.5em;
+   width: 100%; /* Ensure nav takes full width */
+
+}
+nav ul li{
+   list-style: none;
+   display: inline;
+   margin: 0em;
+   font-size: 18px;
+   text-align: center;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   padding: 24px 16px;
+   text-align: center;
+}
+nav ul li a:hover{
+   background-color: bisque;
+   color: black;
+}
+.active{
+   background-color:burlywood;
+   color: black;
+}
+h1{
+  color: black;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color:black;
+  padding: 12px;
+}
+
+   article{
+      margin: 0 auto; /* Centers the paragraph horizontally */
+      text-align: center; /* Centers the text inside the paragraph */
+      width: 50%; /* Optional: sets a width for the paragraph */
+      flex: 1; /* Ensures equal spacing if there are multiple articles */
+   }
